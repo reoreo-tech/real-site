@@ -27,7 +27,6 @@
                                 個
                                 <button type="submit" class="btn btn-primary">更新</button>
                             </form>
-                            <!-- 削除フォームを追加 -->
                             <form method="POST" action="/cartitem/{{ $cartitem->id }}">
                                 @method('DELETE')
                                 @csrf

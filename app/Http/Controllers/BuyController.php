@@ -5,7 +5,6 @@ namespace App\Http\Controllers;
 use App\CartItem;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
-// BuyクラスとMailクラスを読み込む
 use App\Mail\Buy;
 use Illuminate\Support\Facades\Mail;
 
