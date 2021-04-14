@@ -26,6 +26,7 @@
                 <a class="navbar-brand" href="{{ url('/') }}">
                     {{ config('app.name', 'Laravel') }}
                 </a>
+                {{-- 検索機能 --}}
                 <form method="GET" action="/">
                     <input type="text" name="keyword">
                     <input type="submit" value="商品検索">
