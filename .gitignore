@@ -1,6 +1,7 @@
 .idea
 /logs
 /data
+/vendor
 .env
 /.project
 .docker-sync
@@ -23,6 +24,6 @@
 !/.devcontainer/docker-compose.extend-example.yml
 
 docker-compose.custom.yml
-
+docker-compose.yml
 .DS_Store
-/vendor
+
