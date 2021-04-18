@@ -28,7 +28,6 @@ class Buy extends Mailable
      */
     public function build()
     {
-        // この部分を実装する。
         return $this->view('buy.mail');
     }
 }
